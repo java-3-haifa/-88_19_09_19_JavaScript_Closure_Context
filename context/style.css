@@ -1,0 +1,29 @@
+html,body,li,p,ul{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 700px;
+    margin: auto;
+}
+
+#nav ul {
+    display: flex;
+}
+
+#nav ul li{
+    padding: 10px 15px;
+    list-style-type: none;
+}
+#nav ul li:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+#nav .item-active{
+    background-color: #333;
+    color: white;
+}
+
+#nav .item-active:hover{
+    background-color: #333333;
+}
